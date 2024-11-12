@@ -234,8 +234,9 @@ const projects = [
         color: "pink-text-gradient",
       }
     ],
-    image: carrent,
-    source_code_link: "https://github.com/4shaham/Meddical-Client.git",
+    image:carrent,
+    source_code_link:"https://github.com/4shaham/Meddical-Client.git",
+    source_live_link:"https://meddical.shaham.website"
   },
   {
     name: "E-Commerce",
@@ -257,6 +258,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/4shaham/GOCART.git",
+    source_live_link:"https://meddical.shaham.website"
   },
   {
     name: "Olx clone",
@@ -278,6 +280,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+    source_live_link:"https://meddical.shaham.website"
   },
   {
     name: "Netflix clone",
@@ -299,6 +302,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/4shaham/Meddical-Client.git",
+    source_live_link:"https://meddical.shaham.website"
   },
 
 ];
