@@ -6,7 +6,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-import { Link, useNavigate } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 const ProjectCard = ({
   index,
@@ -18,9 +18,7 @@ const ProjectCard = ({
   source_live_link
 }) => {
 
-  const navigate=useNavigate()
-  
-
+ 
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -67,6 +65,7 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
+        <Link to={source_live_link}><small>Live Link</small></Link>
       </Tilt>
     </motion.div>
   );
