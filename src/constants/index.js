@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  expressjs
 } from "../assets";
 
 export const navLinks = [
@@ -108,6 +109,10 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name:"expressjs",
+    icon:expressjs
+  }
 ];
 
 const experiences = [
