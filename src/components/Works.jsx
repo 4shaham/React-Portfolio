@@ -69,9 +69,12 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-        <Link to={source_live_link}>
-          <small>Live Link</small>
-        </Link>
+        {source_live_link!="" && 
+            <Link to={source_live_link}>
+            <small>Live Link</small>
+          </Link>
+        }
+      
       </Tilt>
     </motion.div>
   );

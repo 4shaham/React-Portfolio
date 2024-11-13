@@ -26,6 +26,9 @@ import {
   hp,
   ec,
   github,
+  taskManagment,
+  url,
+  olx,
 } from "../assets";
 
 export const navLinks = [
@@ -313,6 +316,10 @@ const projects = [
         color: "orange-text-gradient",
       },
       {
+        name: "typeScript",
+        color: "green-text-gradient",
+      },
+      {
         name: "tailwind",
         color: "pink-text-gradient",
       },
@@ -321,9 +328,9 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-    source_live_link: "",
+    image:url,
+    source_code_link:"https://github.com/4shaham/URLShortner",
+    source_live_link:"",
   },
   {
     name: "Olx clone",
@@ -343,9 +350,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-    source_live_link: "",
+    image:olx,
+    source_code_link:"https://github.com/4shaham/Olx-clone",
+    source_live_link:"",
   },
   {
     name: "Netflix clone",
@@ -366,8 +373,8 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/4shaham/Meddical-Client.git",
-    source_live_link: "https://meddical.shaham.website",
+    source_code_link:"https://github.com/4shaham/NetflixClone",
+    source_live_link:"",
   },
   {
     name: "Task Managment",
@@ -379,7 +386,24 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typeScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Clean Archetecture",
+        color: "pink-text-gradient",
+      },
+      
+      {
+        name:"mongodb",
         color: "green-text-gradient",
       },
       {
@@ -387,9 +411,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/4shaham/Meddical-Client.git",
-    source_live_link: "https://meddical.shaham.website",
+    image:taskManagment,
+    source_code_link: "https://github.com/4shaham/Task-Management",
+    source_live_link: "https://task-management-frontend.shaham.website/",
   },
 ];
 

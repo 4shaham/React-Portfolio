@@ -8,6 +8,9 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import hp from "./hp.png"
 import ec from "./ec.png"
+import taskManagment from "./taskManagment.png"
+import url from "./url.png"
+import olx from "./olx.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -66,4 +69,7 @@ export {
   tripguide,
   hp,
   ec,
+  taskManagment,
+  url,
+  olx,
 };
